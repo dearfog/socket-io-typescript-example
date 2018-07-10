@@ -7,6 +7,9 @@
     </a>
 </p>
 
+This is Fork of <a href="https://github.com/luixaviles/socket-io-typescript-chat">Luis Aviles Repo
+Upgraded in Angular 6
+=====================
 A Socket.io Chat Example Using TypeScript
 =========================================
 
@@ -76,7 +79,7 @@ The Open Source community is awesome! If you're working in a fork with other tec
 
 | Features                                  | Author                        | Status    |
 |-------------------------------------------|-------------------------------|-----------|
-| [React + TypeScript + Material-UI client](https://github.com/nilshartmann/socket-io-typescript-chat/tree/react-client/client-react)   | [nilshartmann](https://github.com/nilshartmann)   | In Progress   |
+| [Socket.io + TypeScript](https://github.com/luixaviles/socket-io-typescript-chat)   | [Luis Aviles](https://github.com/luixaviles)   | In Progress   |
 
 
 # Contribution

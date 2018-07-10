@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A socket.io example written in TypeScript",
   "main": "index.js",
-  "author": "Luis Aviles",
+  "author": "Nasiruddin Saiyed (Original :Luis Aviles)",
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
