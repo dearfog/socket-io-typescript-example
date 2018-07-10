@@ -7,3 +7,11 @@ gulp.task("build", function () {
         .pipe(tsProject())
         .js.pipe(gulp.dest("./dist"));
 });
+
+//set up a watcher to watch over changes
+gulp.task('watch', ['build'], () => {
+    gulp.watch('src/**.ts', ['build']);
+});
+
+gulp.task('default', ['watch']);
+  
