@@ -5,15 +5,17 @@ import { Message } from '../model/message';
 import { Event } from '../model/event';
 
 import * as socketIo from 'socket.io-client';
+import { environment } from '../../../../environments/environment';
 
-const SERVER_URL = 'http://localhost:8080';
+// const SERVER_URL = 'http://localhost:8080';
+
 
 @Injectable()
 export class SocketService {
     private socket;
 
     public initSocket(): void {
-        this.socket = socketIo(SERVER_URL);
+        this.socket = socketIo(environment.socket);
     }
 
     public send(message: Message): void {

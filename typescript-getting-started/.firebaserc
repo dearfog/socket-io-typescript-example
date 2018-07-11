@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "staging": "firebase-205707",
+    "default": "firebase-205707"
+  }
+}
